@@ -2,9 +2,9 @@ name: Go
 
 on:
   push:
-    branches: [ release-4.13 ]
+    branches: [ release-4.14 ]
   pull_request:
-    branches: [ release-4.13 ]
+    branches: [ release-4.14 ]
 
 jobs:
   build:
@@ -15,7 +15,7 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v4
       with:
-        go-version: '1.19'
+        go-version: '1.20'
 
     - name: Build
       run: go build -v ./...
