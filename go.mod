@@ -2,10 +2,7 @@ module github.com/openshift-sustaining/arc-test-component-b
 
 go 1.24
 
-require (
-	github.com/golang/glog v1.2.1
-	google.golang.org/grpc v1.65.0
-)
+require google.golang.org/grpc v1.65.0
 
 require (
 	golang.org/x/net v0.25.0 // indirect

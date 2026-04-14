@@ -5,14 +5,10 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/golang/glog"
 	"google.golang.org/grpc"
 )
 
 func main() {
-	glog.Error("Prepare to repel boarders")
-	glog.Flush()
-
 	s := grpc.NewServer()
 
 	lis, err := net.Listen("tcp", ":50051")
