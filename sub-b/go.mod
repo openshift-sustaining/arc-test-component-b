@@ -1,6 +1,6 @@
 module github.com/openshift-sustaining/arc-test-component-b/sub-b
 
-go 1.24.0
+go 1.21
 
 require github.com/golang/glog v1.2.5
 
